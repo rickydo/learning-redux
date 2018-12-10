@@ -7,8 +7,8 @@ const Sidebar = ({contacts}) => {
         <aside className="Sidebar">
             {
                 contacts.map(contact => 
-                    <User user = {contact}
-                        key = {contact.user_id} 
+                    <User user={contact}
+                        key={contact.user_id} 
                     />
                 )
             }
